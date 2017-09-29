@@ -1,0 +1,29 @@
+$body-background: #eee;
+$heading-color: #244751;
+body {
+  background-color: $body-background;
+}
+h1 {
+  color: $heading-color;
+}
+
+.flash {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.flash.info {
+  color: blue;
+  border-color: blue;
+}
+
+.flash.error {
+  color: red;
+  border-color: red;
+}
+
+label {
+  display: inline-block;
+  min-width: 75px;
+  text-align: right;
+}
